@@ -12,4 +12,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) NSDictionary *emotionDictionary;
 @end
+
+extern ZGAppDelegate *shareAppDelegateInstance;

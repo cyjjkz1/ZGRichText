@@ -8,6 +8,10 @@
 
 #import "ZGRootViewController.h"
 
+#import "ZGGetRichTextInfo.h"
+
+#import "ZGRichTextLabel.h"
+
 @interface ZGRootViewController ()
 
 @end
@@ -27,6 +31,23 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSString *theContent = @"Find the location [B)] set go way [B)] [B)] you [/:-)][/:-)] have [B)] box [B)][B)]have http://www.cnblogs.com/zcw-ios/articles/2607985.html [:\"-)][:\"-)]Www.baidu.com google kite ok cyjjkz1@gmail.com HHS fcjcjcjc church's whir ugh fight Dutch finding HFCs gggg 477456899 jfcjjc chjckvkv www.sina.com jfcjjc gggg juddujf.";
+    ZGGetRichTextInfo *getStringInformation = [ZGGetRichTextInfo sharedInstance];
+    
+    getStringInformation.isSendByMyself = YES;
+    getStringInformation.isUsingInConversation = NO;
+    
+    [getStringInformation attachEmotionImageWithText:theContent maxSize:CGSizeMake(255, 10000)];
+    
+    ZGRichTextLabel *displayTxtMsgView = [[ZGRichTextLabel alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+    displayTxtMsgView.emotionAndBoundsInLabel = getStringInformation.emotionAndBounds;
+    displayTxtMsgView.targetRunCGRectInLabel = getStringInformation.targetRunCGRect;
+    displayTxtMsgView.theStringCTFrameInLabel = getStringInformation.ctFrame;
+    displayTxtMsgView.isUsingconversation = NO;
+    displayTxtMsgView.frame = CGRectMake(10, 100, getStringInformation.suggestTextSize.width + 5.0, getStringInformation.suggestTextSize.height);
+
+    [self.view addSubview:displayTxtMsgView];
+    
 }
 
 - (void)didReceiveMemoryWarning

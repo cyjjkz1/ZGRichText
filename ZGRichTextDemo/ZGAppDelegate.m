@@ -8,12 +8,45 @@
 
 #import "ZGAppDelegate.h"
 
+#import "ZGRootViewController.h"
+
+ZGAppDelegate *shareAppDelegateInstance;
+
 @implementation ZGAppDelegate
+
+@synthesize emotionDictionary;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    NSDictionary *emotionDicNew = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"emotion_en_new" ofType:@"plist"]];
+    
+    NSMutableDictionary *tempDic = [[NSMutableDictionary alloc] init];
+    
+    for (NSString * key in emotionDicNew) {
+        
+        NSString *emotionFileName = [emotionDicNew objectForKey:key];
+        
+        UIImage *image = [UIImage imageNamed:emotionFileName];
+        
+        [tempDic setObject:image forKey:key];
+        
+        emotionFileName = nil;
+        
+        image           = nil;
+    }
+    emotionDictionary = tempDic;
+    
+    shareAppDelegateInstance = self;
+    
+    ZGRootViewController *rootVC = [[ZGRootViewController alloc] init];
+    UINavigationController *rootNaivVC = [[UINavigationController alloc] initWithRootViewController:rootVC];
+//    rootVC = nil;
+    
+    self.window.rootViewController = rootNaivVC;
+//    rootNaivVC = nil;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
