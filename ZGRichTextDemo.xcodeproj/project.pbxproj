@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EEEE9219764AF9009BC11F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EEEE9119764AF9009BC11F /* Foundation.framework */; };
+		04EEEE9419764AF9009BC11F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EEEE9319764AF9009BC11F /* CoreGraphics.framework */; };
+		04EEEE9619764AF9009BC11F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EEEE9519764AF9009BC11F /* UIKit.framework */; };
+		04EEEE9C19764AF9009BC11F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EEEE9A19764AF9009BC11F /* InfoPlist.strings */; };
+		04EEEE9E19764AF9009BC11F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EEEE9D19764AF9009BC11F /* main.m */; };
+		04EEEEA219764AF9009BC11F /* ZGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EEEEA119764AF9009BC11F /* ZGAppDelegate.m */; };
+		04EEEEA419764AF9009BC11F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EEEEA319764AF9009BC11F /* Images.xcassets */; };
+		04EEEEAB19764AF9009BC11F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EEEEAA19764AF9009BC11F /* XCTest.framework */; };
+		04EEEEAC19764AF9009BC11F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EEEE9119764AF9009BC11F /* Foundation.framework */; };
+		04EEEEAD19764AF9009BC11F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EEEE9519764AF9009BC11F /* UIKit.framework */; };
+		04EEEEB519764AF9009BC11F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EEEEB319764AF9009BC11F /* InfoPlist.strings */; };
+		04EEEEB719764AF9009BC11F /* ZGRichTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EEEEB619764AF9009BC11F /* ZGRichTextDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EEEEAE19764AF9009BC11F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EEEE8619764AF9009BC11F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EEEE8D19764AF9009BC11F;
+			remoteInfo = ZGRichTextDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EEEE8E19764AF9009BC11F /* ZGRichTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGRichTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EEEE9119764AF9009BC11F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EEEE9319764AF9009BC11F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EEEE9519764AF9009BC11F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04EEEE9919764AF9009BC11F /* ZGRichTextDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZGRichTextDemo-Info.plist"; sourceTree = "<group>"; };
+		04EEEE9B19764AF9009BC11F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EEEE9D19764AF9009BC11F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EEEE9F19764AF9009BC11F /* ZGRichTextDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZGRichTextDemo-Prefix.pch"; sourceTree = "<group>"; };
+		04EEEEA019764AF9009BC11F /* ZGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGAppDelegate.h; sourceTree = "<group>"; };
+		04EEEEA119764AF9009BC11F /* ZGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGAppDelegate.m; sourceTree = "<group>"; };
+		04EEEEA319764AF9009BC11F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04EEEEA919764AF9009BC11F /* ZGRichTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGRichTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EEEEAA19764AF9009BC11F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04EEEEB219764AF9009BC11F /* ZGRichTextDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZGRichTextDemoTests-Info.plist"; sourceTree = "<group>"; };
+		04EEEEB419764AF9009BC11F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EEEEB619764AF9009BC11F /* ZGRichTextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGRichTextDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EEEE8B19764AF9009BC11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EEEE9419764AF9009BC11F /* CoreGraphics.framework in Frameworks */,
+				04EEEE9619764AF9009BC11F /* UIKit.framework in Frameworks */,
+				04EEEE9219764AF9009BC11F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EEEEA619764AF9009BC11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EEEEAB19764AF9009BC11F /* XCTest.framework in Frameworks */,
+				04EEEEAD19764AF9009BC11F /* UIKit.framework in Frameworks */,
+				04EEEEAC19764AF9009BC11F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EEEE8519764AF9009BC11F = {
+			isa = PBXGroup;
+			children = (
+				04EEEE9719764AF9009BC11F /* ZGRichTextDemo */,
+				04EEEEB019764AF9009BC11F /* ZGRichTextDemoTests */,
+				04EEEE9019764AF9009BC11F /* Frameworks */,
+				04EEEE8F19764AF9009BC11F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EEEE8F19764AF9009BC11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EEEE8E19764AF9009BC11F /* ZGRichTextDemo.app */,
+				04EEEEA919764AF9009BC11F /* ZGRichTextDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EEEE9019764AF9009BC11F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EEEE9119764AF9009BC11F /* Foundation.framework */,
+				04EEEE9319764AF9009BC11F /* CoreGraphics.framework */,
+				04EEEE9519764AF9009BC11F /* UIKit.framework */,
+				04EEEEAA19764AF9009BC11F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EEEE9719764AF9009BC11F /* ZGRichTextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04EEEEA019764AF9009BC11F /* ZGAppDelegate.h */,
+				04EEEEA119764AF9009BC11F /* ZGAppDelegate.m */,
+				04EEEEA319764AF9009BC11F /* Images.xcassets */,
+				04EEEE9819764AF9009BC11F /* Supporting Files */,
+			);
+			path = ZGRichTextDemo;
+			sourceTree = "<group>";
+		};
+		04EEEE9819764AF9009BC11F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EEEE9919764AF9009BC11F /* ZGRichTextDemo-Info.plist */,
+				04EEEE9A19764AF9009BC11F /* InfoPlist.strings */,
+				04EEEE9D19764AF9009BC11F /* main.m */,
+				04EEEE9F19764AF9009BC11F /* ZGRichTextDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EEEEB019764AF9009BC11F /* ZGRichTextDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EEEEB619764AF9009BC11F /* ZGRichTextDemoTests.m */,
+				04EEEEB119764AF9009BC11F /* Supporting Files */,
+			);
+			path = ZGRichTextDemoTests;
+			sourceTree = "<group>";
+		};
+		04EEEEB119764AF9009BC11F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EEEEB219764AF9009BC11F /* ZGRichTextDemoTests-Info.plist */,
+				04EEEEB319764AF9009BC11F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EEEE8D19764AF9009BC11F /* ZGRichTextDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EEEEBA19764AF9009BC11F /* Build configuration list for PBXNativeTarget "ZGRichTextDemo" */;
+			buildPhases = (
+				04EEEE8A19764AF9009BC11F /* Sources */,
+				04EEEE8B19764AF9009BC11F /* Frameworks */,
+				04EEEE8C19764AF9009BC11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGRichTextDemo;
+			productName = ZGRichTextDemo;
+			productReference = 04EEEE8E19764AF9009BC11F /* ZGRichTextDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EEEEA819764AF9009BC11F /* ZGRichTextDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EEEEBD19764AF9009BC11F /* Build configuration list for PBXNativeTarget "ZGRichTextDemoTests" */;
+			buildPhases = (
+				04EEEEA519764AF9009BC11F /* Sources */,
+				04EEEEA619764AF9009BC11F /* Frameworks */,
+				04EEEEA719764AF9009BC11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EEEEAF19764AF9009BC11F /* PBXTargetDependency */,
+			);
+			name = ZGRichTextDemoTests;
+			productName = ZGRichTextDemoTests;
+			productReference = 04EEEEA919764AF9009BC11F /* ZGRichTextDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EEEE8619764AF9009BC11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04EEEEA819764AF9009BC11F = {
+						TestTargetID = 04EEEE8D19764AF9009BC11F;
+					};
+				};
+			};
+			buildConfigurationList = 04EEEE8919764AF9009BC11F /* Build configuration list for PBXProject "ZGRichTextDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04EEEE8519764AF9009BC11F;
+			productRefGroup = 04EEEE8F19764AF9009BC11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EEEE8D19764AF9009BC11F /* ZGRichTextDemo */,
+				04EEEEA819764AF9009BC11F /* ZGRichTextDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EEEE8C19764AF9009BC11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EEEE9C19764AF9009BC11F /* InfoPlist.strings in Resources */,
+				04EEEEA419764AF9009BC11F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EEEEA719764AF9009BC11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EEEEB519764AF9009BC11F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EEEE8A19764AF9009BC11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EEEE9E19764AF9009BC11F /* main.m in Sources */,
+				04EEEEA219764AF9009BC11F /* ZGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EEEEA519764AF9009BC11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EEEEB719764AF9009BC11F /* ZGRichTextDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EEEEAF19764AF9009BC11F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EEEE8D19764AF9009BC11F /* ZGRichTextDemo */;
+			targetProxy = 04EEEEAE19764AF9009BC11F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EEEE9A19764AF9009BC11F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EEEE9B19764AF9009BC11F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EEEEB319764AF9009BC11F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EEEEB419764AF9009BC11F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EEEEB819764AF9009BC11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EEEEB919764AF9009BC11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EEEEBB19764AF9009BC11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZGRichTextDemo/ZGRichTextDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZGRichTextDemo/ZGRichTextDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EEEEBC19764AF9009BC11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZGRichTextDemo/ZGRichTextDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZGRichTextDemo/ZGRichTextDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04EEEEBE19764AF9009BC11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZGRichTextDemo.app/ZGRichTextDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZGRichTextDemo/ZGRichTextDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZGRichTextDemoTests/ZGRichTextDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04EEEEBF19764AF9009BC11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZGRichTextDemo.app/ZGRichTextDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZGRichTextDemo/ZGRichTextDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZGRichTextDemoTests/ZGRichTextDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EEEE8919764AF9009BC11F /* Build configuration list for PBXProject "ZGRichTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EEEEB819764AF9009BC11F /* Debug */,
+				04EEEEB919764AF9009BC11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EEEEBA19764AF9009BC11F /* Build configuration list for PBXNativeTarget "ZGRichTextDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EEEEBB19764AF9009BC11F /* Debug */,
+				04EEEEBC19764AF9009BC11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EEEEBD19764AF9009BC11F /* Build configuration list for PBXNativeTarget "ZGRichTextDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EEEEBE19764AF9009BC11F /* Debug */,
+				04EEEEBF19764AF9009BC11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EEEE8619764AF9009BC11F /* Project object */;
+}
